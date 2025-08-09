@@ -118,7 +118,7 @@ def count_ocean_waves_web(video_path):
 @app.route('/')
 def upload_form():
     """Renders the video upload form."""
-    return render_template('upload.html')
+    return render_template('/upload.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_video():
